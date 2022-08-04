@@ -16,7 +16,7 @@
     justify-content: center;
 }
 
-.relogio1 {
+.relogio {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -27,7 +27,7 @@
     box-shadow: 0px 7px 12px rgba(0, 0, 0, .9);
 }
 
-.relogio1 div {
+.relogio div {
     height: 170px; /* Altura dos quadradinhos*/
     width: 150px;  /* Largura dos quadradinhos*/
     display: flex;
@@ -41,12 +41,12 @@
     letter-spacing: 2px;
 }
 
-.relogio1 span {
+.relogio span {
     font-weight: bolder;
     font-size: 60px;
 }
 
-.relogio1 span.tempo {
+.relogio span.tempo {
     font-size: 15px;
     font-family: 'roboto';
 
@@ -62,7 +62,7 @@
         
 }
 
-.relogio2, .relogio1 h3{
+.calendario, .relogio h3{
     color: #fff;
     font-size: 60px;
 }
@@ -86,7 +86,7 @@
     justify-content: center;
 }
 
-.relogio2 {
+.calendario {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -97,7 +97,7 @@
     box-shadow: 0px 7px 12px rgba(228, 218, 218, .9);
 }
 
-.relogio2 div {
+.calendario div {
     height: 110px;
     width: 170px;
     display: flex;
@@ -111,12 +111,12 @@
     letter-spacing: 2px;
 }
 
-.relogio2 span {
+.calendario span {
     font-weight: bolder;
     font-size: 60px;
 }
 
-.relogio2 span.tempo {
+.calendario span.tempo {
     font-size: 15px;
     font-family: 'roboto';
 
