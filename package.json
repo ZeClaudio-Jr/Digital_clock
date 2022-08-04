@@ -1,0 +1,25 @@
+{
+  "name": "digital_clock",
+  "version": "1.0.0",
+  "description": "Projeto de um relógio digital, desenvolvimento básico com HTML, CSS e JAVASCRIPT(JS). Design of a digital clock, basic development with HTML, CSS and JAVASCRIPT(JS).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeClaudio-Jr/Digital_clock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeClaudio-Jr/Digital_clock/issues"
+  },
+  "homepage": "https://github.com/ZeClaudio-Jr/Digital_clock#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "next": "^12.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
