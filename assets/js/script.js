@@ -27,6 +27,7 @@ const relogio = setInterval(function time() {
 const dia = document.getElementById('dia');
 const mes = document.getElementById('mes');
 const ano = document.getElementById('ano');
+
 const infoG = document.getElementById('infoG');
 
 
@@ -35,8 +36,11 @@ const calendario = setInterval(function time() {
     let d = dateToday.getDate();   // O getDay não funciona como eu pensava.
     let m = dateToday.getMonth()+1;   // Só o getMonth trás o mês anterior ao que se está. O método getMonth() retorna o mês da data especificada. É importante observar a respeito do método getMonth() que ele retorna valores indexados em zero (ou seja, de 0 a 11), onde 0 representa janeiro e 11 representa dezembro. Por isso, é preciso adicionar 1 para "normalizar" o valor do mês.
     let a = dateToday.getFullYear();
+
     let i = dateToday.toUTCString();
 
+
+    
     if (d < 10) d = '0' + d;
     if (m < 10) m = '0' + m;
     if (a < 10) a = '0' + a;
@@ -44,5 +48,6 @@ const calendario = setInterval(function time() {
     dia.textContent = d;
     mes.textContent = m;
     ano.textContent = a;
+
     infoG.textContent = i;
 })
