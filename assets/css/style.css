@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:wght@300;400;500&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'swap', 'roboto', 'sans-serif';
+    font-family: 'roboto', sans-serif;
     
 }
 
@@ -48,7 +49,7 @@
 
 .relogio span.tempo {
     font-size: 15px;
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
 
 }
 
@@ -57,19 +58,19 @@
 
 
 .principal_1 h2{
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
     font-size: 30px;
         
 }
 
-.calendario, .relogio h3{
+.calendario, .relogio h3, .calendario h3{
     color: #fff;
     font-size: 60px;
 }
 
 .principal_2 h2{
     color: #fff;
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
     font-size: 30px;
 }
 
@@ -127,7 +128,7 @@
     /* height: 50px; */
     color: #fff;
     font-size: 30px;
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
     /* padding: 40px; */
     margin-top: 70px;
     align-items: center;
@@ -135,14 +136,33 @@
     
 }
 
-.principal_2 h4 {
+.h5 {
     color: #fff;
     font-size: 13px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'roboto', sans-serif;
     margin-top: 10px;
-        
+    justify-content:center; 
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.h5 p {
+    color: aqua;
+    text-align: center;
+    padding: 4px;
+}
+
+.h3hm {
+    color: rgb(206, 43, 43);
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .principal_2 a {
-    color: #fff;
+    color: rgb(34, 145, 153);
+    /* padding-left: 2px; */
+    /* text-align: center; */
 }
+
