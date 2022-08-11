@@ -84,6 +84,7 @@
     display: flex;
     align-items:center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .calendario {
@@ -121,3 +122,12 @@
     font-family: 'roboto';
 
 } /**/
+
+.infoGeral {
+    /* height: 50px; */
+    color: #fff;
+    font-size: 30px;
+    font-family: 'roboto';
+    padding: 40px;
+    align-items: center;
+}
