@@ -145,16 +145,22 @@
     font-size: 190%;
 }
 
+/* .calendario span.ano {
+    font-weight: bolder;
+    font-size: 190%;
+} */
+
 /**/
 .calendario span.tempo {
     font-size: 47%;
     font-family: 'roboto';
 }
 
+
 /**/
 .infoGeral {
     height: 10%;
-    width: 30%;
+    /* width: 30%; */
     color: #fff;
     /* font-size: 30px; */
     font-size: 200%;
@@ -170,7 +176,7 @@
     /* color: rgb(50, 41, 225); */
     font-size: 12px;
     font-family: 'roboto', sans-serif;
-    margin-top: 2%;
+    margin-top: 5%;
     justify-content:center; 
     align-self: center;
     display: flex;
@@ -188,8 +194,8 @@
 .h3hm {
     color: rgb(206, 43, 43);
     font-size: 13px;
-    margin-top: 1%;
-    margin-bottom: 50px;
+    margin-top: 0,5%;
+    /* margin-bottom: 50px; */
 }
 
 
